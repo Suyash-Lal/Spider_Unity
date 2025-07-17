@@ -1,5 +1,10 @@
 # Spider Unity - VR Phobia Treatment Prototype
 
+[![Unity](https://img.shields.io/badge/Unity-2021.3+-black.svg?style=flat&logo=unity)](https://unity3d.com/)
+[![C#](https://img.shields.io/badge/C%23-Unity_Scripts-239120.svg?style=flat&logo=c-sharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Meta Quest](https://img.shields.io/badge/Meta_Quest-3-1C1E20.svg?style=flat&logo=oculus)](https://www.meta.com/quest/quest-3/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A Virtual Reality prototype exploring interactive fear-inducing immersive media for potential therapeutic applications, specifically focusing on arachnophobia treatment.
 
 ## Overview
@@ -18,16 +23,19 @@ This Unity-based VR application creates an immersive environment where virtual s
 
 ## Technical Implementation
 
-### Platform
-- Unity Game Engine
+### Platform & Technologies
+- Unity Game Engine (2021.3+)
 - Meta Quest 3 VR Headset
+- Oculus Integration SDK
 - Hand tracking SDK integration
+- C# scripting for game logic
 
 ### Core Mechanics
 - Spider AI with approach behaviors
 - Physics-based interactions for pushing/throwing
 - Hand gesture recognition
 - Spatial tracking and room-scale VR support
+- Audio feedback system for immersion
 
 ## Potential Applications
 
@@ -68,12 +76,45 @@ The project investigates how VR can address limitations in traditional exposure 
 
 - Unity 2021.3 or later
 - Meta Quest 3 or compatible VR headset with hand tracking
+- Oculus Integration package
 - Sufficient play space for room-scale VR
+
+## Installation & Setup
+
+1. Clone the repository
+2. Open the project in Unity 2021.3 or later
+3. Import Oculus Integration from the Unity Asset Store
+4. Configure XR settings for Meta Quest 3
+5. Build and deploy to your VR headset
+
+## Project Structure
+
+```
+Spider_Main/
+├── Assets/
+│   ├── Oculus/              # Oculus SDK integration files
+│   ├── Scenes/              # Unity scene files
+│   ├── Spider Green/        # Spider models and textures
+│   ├── Suyash/
+│   │   ├── Animations/      # Spider animation controllers
+│   │   ├── Materials/       # Visual materials
+│   │   ├── Prefabs/         # Reusable game objects
+│   │   ├── Scripts/         # C# game scripts
+│   │   └── Sounds/          # Audio files
+│   └── XR/                  # VR configuration
+├── Packages/                # Unity package dependencies
+└── ProjectSettings/         # Unity project configuration
+
+```
 
 ## Contributors
 
 - **Suyash Lal** - Development and Implementation
 - **Dr. Rahul Kumar Ray** - Research and Conceptualization
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
